@@ -1,0 +1,23 @@
+# https://cs.anu.edu.au/courses/comp1720/resources/faq/#statement-of-originality
+
+# put *your* name and uid here
+name: Joseph-Mark Triolo
+uid: 6681516
+
+declaration: >-
+  I declare that everything I have submitted in this assignment is entirely my
+  own work, with the following exceptions:
+
+
+      
+# add as many "url+licence+comment" entries as necessary
+# (or remove it altogether if you haven't used any external code)
+code: aEntity.x += 0.05*width*cos(frameCount*0.01)*randomGaussian(0, 0.1);
+      aEntity.y += 0.05*height*cos(frameCount*0.011)*randomGaussian(0, 0.1);
+  - comment: Taken from one of the lab template codes. Used to make the pills move around the screen.
+
+# add as many "url+licence+comment" entries as necessary
+# (or remove it altogether if you haven't used any external assets)
+assets: assets/5d7025ac03720b020333d8583743048b.png
+  - comment: Downloaded from a website to give the mouse a crosshair
+    url: https://pngtree.com/freepng/creative-crosshairs_2538629.html
