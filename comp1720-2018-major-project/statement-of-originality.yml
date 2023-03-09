@@ -1,0 +1,38 @@
+# https://cs.anu.edu.au/courses/comp1720/resources/faq/#statement-of-originality
+
+# put *your* name and uid here
+name: Joseph-Mark Triolo
+uid: u6681516
+
+declaration: >-
+  I declare that everything I have submitted in this assignment is entirely my
+  own work, with the following exceptions:
+
+
+
+      
+
+# add as many "url+licence+comment" entries as necessary
+# (or remove it altogether if you haven't used any external code)
+code:
+  push();
+    translate(x,y);
+    scale(s);
+    for(var i=0; i<j; i+=30){
+        push();
+        rotate(radians(i+millis()/100));
+        fill(colorSwap);
+        ellipse(0, 0-b1/2-50, 60, b3);
+        pop();
+        }
+        fill(248, 249, 167);
+        ellipse(0, 0, 130, 130);
+        pop();
+  - comment: code has been heavily modified to serve my liking but its foundations are provided from the link.
+    url: https://www.openprocessing.org/sketch/606975
+
+code:
+  var colors = ['#FFFFFF', '#808080', '#000000', '#FF0000', '#800000', '#FFFF00', '#808000', '#00FF00', '#008000', '#00FFFF', '#008080', '#0000FF', '#000080', '#FF00FF','#ffc0cb', '#800080'];
+  var colorSwap = 0;
+  colorSwap = colors[int(random(0, colors.length))];
+    - comment: These lines of code are from the color picker assignment inorder to help me with a minor feature within my major project.
